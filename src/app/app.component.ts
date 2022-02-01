@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'flopbuster2';
+  title = 'FlopBuster';
+
+  movieList = {
+	  count:1
+  }
+
+  theRoom = { 
+	title:"The Room"
+  }
+
+
 }
